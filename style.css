@@ -519,7 +519,9 @@ article {
 
 .theend {
     width: 380px;
-    margin-left: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
     margin-top: 20px;
     border: 2px solid black;
     border-radius: 20px;
@@ -555,14 +557,15 @@ article {
 .endingo {
     flex-wrap: wrap;
     width: 350px;
+    height: 510px;
     margin-left: auto;
-    margin-right: 20px;
+    margin-right: auto;
     background-color: #29332c;
     padding: 20px;
     border-radius: 20px;
     color: white;
     margin-bottom: 20px;
-    margin-top: 40px;
+    margin-top: 100px;
 }
 
 .inp {
@@ -598,4 +601,9 @@ article {
     background-color: #ffffff;
     transition: 0.5s ease-in-out;
     color: #29332c;
+}
+
+.boss {
+    display: flex;
+    flex-wrap: wrap;
 }
