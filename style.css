@@ -1,0 +1,601 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(79, 96, 84);
+    color: rgb(187, 187, 187);
+    font-family: Arthaus Bold;
+    margin-top: -20px;
+    height: 90px;
+    position: fixed;
+    width: 100%;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(248, 87, 87, 0.23);
+}
+
+header nav img {
+    width: 40px;
+    padding-right: 8px;
+    margin-top: 25px;
+    cursor: pointer;
+}
+
+.home {
+    display: none;
+    width: 100px;
+	height: 100px;
+    background-color: black;
+    position: relative;
+    padding: 10px;
+    margin-top: 150px;
+    border-radius: 10px;
+    margin-right: 10px;
+    text-align: center;
+}
+
+.home a {
+    text-align: center;
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+    transition: 1s ease-in;
+}
+
+.home a:hover {
+    color: blueviolet;
+    transition: 1s ease-in;
+}
+
+nav:hover > .home {
+    display: block;
+}
+
+header p {
+    font-size: 35px;
+    margin-top: 50px;
+    padding-left: 8px;
+}
+
+.Better {
+    width: 410px;
+    margin: 60px;
+    border-radius: 30px;
+    background-color: aliceblue;
+    padding: 20px;
+    margin-top: 95px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.Better h1 {
+    font-size: 40px;
+    color: #29332c;
+}
+
+.Better a {
+    background-color: rgb(189, 178, 133);
+    color: white;
+    text-decoration: none;
+    border-radius: 15px;
+    padding: 10px;
+    transition: 0.5s ease-in-out;
+}
+
+.Better a:hover {
+    background-color: #29332c;
+    transition: 0.5s ease-in-out;
+}
+
+.smileman {
+    width: 550px;
+    height: 370px;
+    margin-top: 100px;
+    border-radius: 40px;
+    margin-left: auto;
+    margin-right: 60px;
+}
+
+.omni {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #29332c;
+}
+
+.punks {
+    flex-wrap: wrap;
+    text-align: left;
+    display: flex;
+    justify-content: center;
+}
+
+.property {
+    text-align: center;
+    font-size: 40px;
+    color: aliceblue;
+}
+
+.Keyself {
+    background-image: url(https://img.freepik.com/premium-photo/city-skyline-dusk_1048944-12140943.jpg?ga=GA1.1.70892955.1736332528&semt=ais_hybrid);
+    margin-top: -30px;
+}
+
+.asides {
+    margin: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgb(79, 96, 84);
+    border-radius: 20px;
+    padding: 15px;
+    color: aliceblue;
+    text-align: center;
+    margin-bottom: 20px;
+    width: 190px;
+}
+
+.asidess {
+    margin: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgb(189, 178, 133);
+    border-radius: 20px;
+    color: aliceblue;
+    padding: 20px;
+    text-align: center;
+    margin-bottom: 20px;
+    width: 170px;
+}
+
+.panks {
+    background-color: #29332c;
+    margin: 10px;
+    padding: 10px;
+    color: aliceblue;
+    border-radius: 20px;
+    width: 500px;
+}
+
+.panks p {
+    float: right;
+    width: 460px;
+    font-size: 20px;
+}
+
+.panks img {
+    width: 20px;
+    float: left;
+    margin-top: 18px;
+}
+
+.asides a {
+    color: white;
+}
+
+.asidess  a {
+    color: aliceblue;
+}
+
+.asides a:hover {
+    text-decoration: none;
+}
+
+.asidess a:hover {
+    text-decoration: none;
+}
+
+.staybetter {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #29332c;
+}
+
+.bebetter {
+    width: 410px;
+    margin: 60px;
+    border-radius: 30px;
+    background-color: aliceblue;
+    padding: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.bebetter a {
+    background-color: rgb(189, 178, 133);
+    color: white;
+    text-decoration: none;
+    border-radius: 15px;
+    padding: 10px;
+    transition: 0.5s ease-in-out;
+}
+
+.bebetter a:hover {
+    background-color: #29332c;
+    transition: 0.5s ease-in-out;
+}
+
+.bebetter h1 {
+    font-size: 40px;
+    color: #29332c;
+}
+
+.bebetter p {
+    margin-bottom: 40px;
+}
+
+.shinyman {
+    width: 500px;
+    height: 320px;
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 40px;
+}
+
+.protect {
+    width: 60px;
+    border-radius: 30px;
+}
+
+.effect {
+    width: 60px;
+    border-radius: 30px;
+}
+
+.sites {
+    width: 60px;
+    border-radius: 30px;
+}
+
+.costs {
+    width: 60px;
+    border-radius: 30px;
+}
+
+.our {
+    text-align: center;
+}
+
+.pupil {
+    margin-left: auto;
+    margin-right: auto;
+    width: 300px;
+    background-color: #29332c;
+    color: aliceblue;
+    border-radius: 20px;
+    padding: 18px;
+    margin-bottom: 10px;
+}
+
+.pupill {
+    margin-left: auto;
+    margin-right: auto;
+    width: 300px;
+    background-color: rgb(189, 178, 133);
+    color: aliceblue;
+    border-radius: 20px;
+    margin-bottom: 10px;
+    padding: 18px;
+}
+
+.pupilll {
+    margin-left: auto;
+    margin-right: auto;
+    width: 300px;
+    background-color: rgb(79, 96, 84);
+    color: aliceblue;
+    border-radius: 20px;
+    margin-bottom: 10px;
+    padding: 18px;
+}
+
+.our h1 {
+    font-size: 50px;
+    color: #29332c;
+}
+
+.our p {
+    font-size: 20px;
+}
+
+.properties {
+    text-align: left;
+}
+
+.our h3 {
+    font-weight: normal;
+}
+
+.workers {
+    padding-left: 100px;
+}
+
+.photoS img{
+    width: 80px;
+    border-radius: 60px;
+    border: 5px solid white;
+}
+
+.photoS {
+    float: left;
+    margin-top: 35px;
+}
+
+.photoF img {
+    width: 80px;
+    border-radius: 60px;
+    border: 5px solid white;
+}
+
+.photoF {
+    float: left;
+}
+
+.photoN img {
+    width: 110px;
+    border-radius: 60px;
+    border: 5px solid white;
+    height: 90px;
+}
+
+.photoN {
+    float: left;
+    margin-top: 15px;
+}
+
+.king {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #29332c;
+}
+
+.kinger {
+    width: 450px;
+    height: 320px;
+    margin: 40px;
+    border-radius: 30px;
+    background-color: aliceblue;
+    padding: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.kinger h1 {
+    font-size: 40px;
+    color: #29332c;
+}
+
+.kinger a {
+    background-color: rgb(189, 178, 133);
+    color: white;
+    text-decoration: none;
+    border-radius: 15px;
+    padding: 10px;
+    transition: 0.5s ease-in-out;
+}
+
+.kinger a:hover {
+    background-color: #29332c;
+    transition: 0.5s ease-in-out;
+}
+
+.kinger p {
+    margin-bottom: 40px;
+    font-size: 18px;
+}
+
+.happyman {
+    width: 550px;
+    height: 370px;
+    margin-top: 35px;
+    border-radius: 40px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.company h1 {
+    text-align: center;
+    margin-left: 250px;
+    margin-right: 250px;
+    font-size: 40px;
+    color: #29332c;
+}
+
+article {
+    display: flex;
+}
+
+.last {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #29332c;
+}
+
+.laster {
+    width: 410px;
+    margin: 60px;
+    border-radius: 30px;
+    background-color: aliceblue;
+    padding: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.laster a {
+    background-color: rgb(189, 178, 133);
+    color: white;
+    text-decoration: none;
+    border-radius: 15px;
+    padding: 10px;
+    transition: 0.5s ease-in-out;
+}
+
+.laster a:hover {
+    background-color: #29332c;
+    transition: 0.5s ease-in-out;
+}
+
+.laster h1 {
+    margin-bottom: 15px;
+    font-size: 40px;
+    color: #29332c;
+}
+
+.laster p {
+    margin-bottom: 40px;
+    font-size: 18px;
+}
+
+.maniak {
+    width: 550px;
+    height: 370px;
+    margin-top: auto;
+    margin-bottom: auto;
+    border-radius: 40px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.event {
+    width: 350px;
+    margin-right: 50px;
+    font-size: 19px;
+    margin-top: 55px;
+    color: #29332c;
+}
+
+.skobochka {
+    width: 60px;
+    height: 50px;
+    margin-top: 75px;
+    margin-left: auto;
+    margin-right: 15px;
+}
+
+.eventino {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.photom {
+    width: 400px;
+    margin-left: 40px;
+    margin-right: auto;
+    margin-top: 20px;
+}
+
+.tandem {
+    background-image: url(https://img.freepik.com/premium-psd/young-man-holding-glass-tea-sitting-indoors-sunlight_666026-28841.jpg?ga=GA1.1.70892955.1736332528&semt=ais_hybrid);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    
+}
+
+.tandemen {
+    width: 400px;
+    text-align: right;
+    margin-left: auto;
+    margin-right: 100px;
+    color: white;
+}
+
+.tandemen h1 {
+    font-size: 25px;
+}
+
+.tandemen p {
+    margin-bottom: 100px;
+}
+
+.photish {
+    width: 60px;
+    height: 50px;
+    margin-top: 50px;
+    margin-bottom: -10px;
+}
+
+.theend {
+    width: 380px;
+    margin-left: 40px;
+    margin-top: 20px;
+    border: 2px solid black;
+    border-radius: 20px;
+    padding: 20px;
+}
+
+.theend h1 {
+    color: #29332c;
+    font-size: 40px;
+}
+
+.theend p {
+    color: #29332c;
+    margin-bottom: 30px;
+}
+
+.theend a {
+    background-color: rgb(189, 178, 133);
+    color: white;
+    text-decoration: none;
+    border-radius: 15px;
+    padding: 12px;
+    padding-left: 20px;
+    padding-right: 20px;
+    transition: 0.5s ease-in-out;
+}
+
+.theend a:hover {
+    background-color: #29332c;
+    transition: 0.5s ease-in-out;
+}
+
+.endingo {
+    flex-wrap: wrap;
+    width: 350px;
+    margin-left: auto;
+    margin-right: 20px;
+    background-color: #29332c;
+    padding: 20px;
+    border-radius: 20px;
+    color: white;
+    margin-bottom: 20px;
+    margin-top: 40px;
+}
+
+.inp {
+    width: 345px;
+    height: 25px;
+}
+
+.inpi {
+    width: 345px;
+    height: 80px;
+}
+
+.fifth a {
+    color: rgb(118, 118, 219);
+    transition: 2s ease-in;
+}
+
+.fifth a:hover{
+    color: rgb(60, 14, 104);
+    transition: 2s ease-in;
+}
+
+.rell {
+    background-color: rgb(189, 178, 133);
+    color: white;
+    text-decoration: none;
+    border-radius: 15px;
+    padding: 10px;
+    transition: 0.5s ease-in-out;
+}
+
+.rell:hover {
+    background-color: #ffffff;
+    transition: 0.5s ease-in-out;
+    color: #29332c;
+}
